@@ -61,7 +61,7 @@ CREATE TABLE Annulation (
 );
 
 -- Ajouter de colonnes aprés la créations
-ALTER Table Activity ADD COLUMN Statu ENUM('En Cours', 'Terminer');
+ALTER TABLE Activite ADD COLUMN Statut ENUM('En Cours', 'Terminer');
 
 -- ========== CRUD POUR LA TABLE MEMBRE ==========
 -- CREATE (Créer)
